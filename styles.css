@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background-color: #F8F9FA !important;
+}
+.container{
+  width: 1400px;
+  margin: auto;
+}
+nav{
+    background-color: #638889;
+    color: #EBD9B4;
+}
+@font-face {
+  font-family: 'butter pineapple';
+  src: url(butter-pineapple.regular.otf);
+}
+h2 {
+  font-family: 'butter pineapple', sans-serif;
+  font-size:xx-large;
+}
+ul {
+  list-style-type: none;
+  float: right;
+  padding-top: 10px;
+  
+}
+li {
+  float: left;
+  padding-right: 10px;
+  
+}
+img {
+  width: 500px;
+  height: auto;
+}
+.heading{
+  text-align: center;
+  
+}
+
+.card{
+  margin: 10px;
+  
+}
+
+.order{
+  color: red;
+  
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:visited {
+  background-color: #638889 !important;
+  color: #EBD9B4 !important;
+  border: 0 !important;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  
+}
+.banner{
+  /* width: 1000px; */
+  display: flex;
+  justify-content: center;
+}
+
+.banner-img{
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+
+}
+.imgmenu{
+  width: 75%;
+  height: 85%;
+  border-radius: 28px;
+
+}
+.socialicon{
+  width: 30px;
+  height: auto;
+}
+.bn-content{
+  text-align: center;
+  padding-top: 70px;
+}
+
+footer {
+  padding-left: 70px;
+  padding-top: 10px;
+  background-color: #638889;
+  color: #EBD9B4;
+}
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 15px;
+  float: left;
+  
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust the spacing between icons */
+}
