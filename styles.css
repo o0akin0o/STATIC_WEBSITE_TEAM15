@@ -47,6 +47,15 @@ img {
   width: 500px;
   height: auto;
 }
+.booking-title{
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-weight:600;
+}
+form{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
 .heading{
   text-align: center;
   font-family: 'EB Garamond', serif;
@@ -150,7 +159,7 @@ footer {
 }
 
 .booking-img{
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .about-title{
