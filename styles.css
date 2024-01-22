@@ -3,8 +3,9 @@
   padding: 0;
 }
 body {
-  /* background-image: url("./img/bg-salad.jpg"); */
- 
+  background-image: url("./img/lettuce.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 }
 .container{
@@ -12,7 +13,10 @@ body {
   margin: auto;
 }
 nav{
-    background-color: #4E7047;
+    background-color: #586e37;
+    /* background-color: #4E7047; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: white;
 }
 @font-face {
@@ -45,6 +49,8 @@ img {
 }
 .heading{
   text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-weight:600;
   
 }
 
@@ -59,11 +65,20 @@ img {
 }
 
 .btn-primary, .btn-primary:visited {
-  background-color:#4E7047 !important;
+  background-color:#586e37 !important;
   color: white !important;
   border: 0 !important;
-}
 
+  
+}
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.card-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
 .card-container{
   display: flex;
   justify-content: center;
@@ -107,8 +122,10 @@ img {
 footer {
   padding-left: 70px;
   padding-top: 10px;
-  background-color: #4E7047;
+  background-color: #586e37;
   color: white;
+  font-family: 'EB Garamond', serif;
+  font-weight:400;
 }
 .social-icons {
   list-style: none;
