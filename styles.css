@@ -15,7 +15,7 @@ nav{
 }
 @font-face {
   font-family: 'butter pineapple';
-  src: url(butter-pineapple.regular.otf);
+  src: url(font/butter-pineapple.regular.otf);
 }
 h2 {
   font-family: 'butter pineapple', sans-serif;
