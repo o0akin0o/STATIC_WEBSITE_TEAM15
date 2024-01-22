@@ -10,8 +10,8 @@ background-color: #F8F9FA !important;
   margin: auto;
 }
 nav{
-    background-color: #638889;
-    color: #EBD9B4;
+    background-color: #4E7047;
+    color: white;
 }
 @font-face {
   font-family: 'butter pineapple';
@@ -25,13 +25,18 @@ ul {
   list-style-type: none;
   float: right;
   padding-top: 10px;
-  
+  padding-right: 20px;;
 }
 li {
   float: left;
-  padding-right: 10px;
+  padding: 15px;
+  font-size: 20px;
+}
+.logo{
+  font-size: 50px;
   
 }
+
 img {
   width: 500px;
   height: auto;
@@ -52,8 +57,8 @@ img {
 }
 
 .btn-primary, .btn-primary:visited {
-  background-color: #638889 !important;
-  color: #EBD9B4 !important;
+  background-color:#4E7047 !important;
+  color: white !important;
   border: 0 !important;
 }
 
@@ -94,8 +99,8 @@ img {
 footer {
   padding-left: 70px;
   padding-top: 10px;
-  background-color: #638889;
-  color: #EBD9B4;
+  background-color: #4E7047;
+  color: white;
 }
 .social-icons {
   list-style: none;
@@ -121,4 +126,12 @@ footer {
 
 .booking-img{
   margin-top: 15%;
+}
+
+.about-title{
+  padding-left: 20px;
+}
+
+.about-text{
+  padding-left: 20px;
 }
