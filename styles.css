@@ -6,14 +6,6 @@ body {
   /* background-image: url("./img/bg-salad.jpg"); */
  
 }
-.line-4 hr {
-  height: 1px;
-  border: 0;
-  background: black;
-  width: 700px;
-  position: absolute;
-		  left: 25%;
-		 
 }
 .container{
   width: 1400px;
