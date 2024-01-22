@@ -151,3 +151,11 @@ footer {
 .ctmenu{
   border-bottom: 1px solid red;
 }
+.line-4 hr {
+  height: 2px;
+  border: 0;
+  background: #638889;
+  width: 730px;
+  position: absolute;
+	left: 25%;
+}
