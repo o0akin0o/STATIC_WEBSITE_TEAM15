@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: 'butter pineapple';
+  src: URL(./fonts/butter-pineapple.regular.otf);
+}
 body {
   background-image: url("./img/lettuce.png");
   background-repeat: no-repeat;
@@ -15,16 +19,14 @@ body {
   margin: auto;
 }
 nav{
-    background-color: #586e37;
+    background-color: #4E7047;
     /* background-color: #4E7047; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: white;
+    
 }
-@font-face {
-  font-family: 'butter pineapple';
-  src: URL(./fonts/butter-pineapple.regular.otf);
-}
+
 h2 {
   font-family: 'butter pineapple', sans-serif;
   font-size:xx-large;
@@ -76,7 +78,7 @@ form{
 }
 
 .btn-primary, .btn-primary:visited {
-  background-color:#586e37 !important;
+  background-color:#4E7047 !important;
   color: white !important;
   border: 0 !important;
 
@@ -133,7 +135,7 @@ form{
 footer {
   padding-left: 70px;
   padding-top: 10px;
-  background-color: #586e37;
+  background-color: #4E7047;
   color: white;
   font-family: 'EB Garamond', serif;
   font-weight:400;
